@@ -1,0 +1,41 @@
+/* Estilos para o tema claro */
+body {
+    font-family: 'Roboto', sans-serif; /* Mantém a fonte Roboto */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Cor de fundo padrão */
+    color: #000; /* Cor do texto padrão */
+}
+
+header {
+    background-color: #4CAF50; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto do cabeçalho */
+    padding: 10px 0; /* Espaçamento vertical do cabeçalho */
+    text-align: center; /* Centraliza o texto do cabeçalho */
+}
+
+main {
+    padding: 20px; /* Espaçamento interno do conteúdo principal */
+}
+
+.bg-overlay {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente */
+}
+
+/* Estilos para o tema escuro */
+.dark-mode {
+    background-color: #000000; /* Fundo preto para o modo escuro */
+    color: #ffffff; /* Texto branco para o modo escuro */
+}
+
+.dark-mode header {
+    background-color: #333; /* Cor do cabeçalho no modo escuro */
+}
+
+.dark-mode main {
+    background-color: #222; /* Fundo do conteúdo principal no modo escuro */
+}
+
+.dark-mode .bg-overlay {
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo semi-transparente no modo escuro */
+}
